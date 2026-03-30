@@ -34,6 +34,8 @@ public class LibVosk {
 
     public static native void vosk_recognizer_set_max_alternatives(Pointer recognizer, int max_alternatives);
 
+    public static native void vosk_recognizer_set_result_options(Pointer recognizer, String result_opts);
+
     public static native void vosk_recognizer_set_words(Pointer recognizer, boolean words);
 
     public static native void vosk_recognizer_set_partial_words(Pointer recognizer, boolean partial_words);
